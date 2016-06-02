@@ -1,7 +1,174 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>Hisdf</p>
-</body>
+<html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+      <title>Darren Tu</title>
+      <!-- CSS  -->
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      
+   </head>
+   <body>
+      <div class="navbar-fixed">
+         <nav class="white" role="navigation" >
+            <div class="nav-wrapper container">
+               <!--<a id="logo-container" href="#" class="brand-logo">Logo</a>-->
+               <ul class="center hide-on-med-and-down">
+                  <li><a href="#me">About Me</a></li>
+                  <li><a href="#featured">Projects</a></li>
+                  <li><a href="#work">Experience</a></li>
+               </ul>
+               <ul id="nav-mobile" class="side-nav">
+                  <li><a href="#me">About Me</a></li>
+                  <li><a href="#featured">Projects</a></li>
+                  <li><a href="#work">Experience</a></li>
+               </ul>
+               <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+            </div>
+         </nav>
+      </div>
+      <div id="index-banner" class="parallax-container">
+         <div class="section no-pad-bot">
+            <div class="container">
+               <br><br>
+               <h4 class="header center" style="font-family:'telegrafico'; font-size: 90px; font-weight: bold;">Darren Tu</h4>
+               <div class="row center">
+                  <h5 class="header col s12 light center">Developer, Innovator, Dreamer</h5>
+                  <a href="my_resume.pdf" id="download-button" class="btn-large waves-effect waves-light teal darken-1">My Resume</a>
+               </div>
+               <br><br>
+            </div>
+         </div>
+         <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+      </div>
+      <div class="container">
+         <div class="section">
+
+            <!--   About ME   -->
+
+            <div class="row">
+               <div class="col s12 center">
+                  <h3><i class="mdi-content-send brown-text"></i></h3>
+                  <h4 id="me" class="section scrollspy">About Me</h4>
+                  <p class="left-align light" align = "center justify">As a first year Computer Science Co-op student at McMaster University, I strive to learn as much as I can on anything related to technology. From early website development to hacking together modern APIs, I've always been very tech-inclined. To me, software opens up seemingly endless possibilities for solving problems. I have a passion for internet security, big data, and fascinating design. </p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="parallax-container valign-wrapper">
+         <div class="section no-pad-bot">
+            <div class="container">
+               <div class="row center">
+                  <h5 class="header col s12 light"></h5>
+               </div>
+            </div>
+         </div>
+         <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+      </div>
+
+      <!-- FEATURED PROJECTS-->
+
+      <div class="container">
+         <div class="section">
+            <div class="row">
+               <div class="col s12 center">
+                  <h4 id="featured" class="section scrollspy">Featured Projects</h4>
+               </div>
+               <div class="col s12 m6">
+                  <div class="card medium">
+                     <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="projects/avenue.png">
+                     </div>
+                     <div class="card-content">
+                        <span class="card-title grey-text text-darken-4"><a href="http://github.com">Avenue Class Scraper</a></span>
+                     </div>
+                     <div class="card-action">
+                        <span class="skills">Python</span>
+                     </div>
+                     <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4"><a href="http://github.com/darrentu/AvenueClassListScraper">Avenue Class Scraper</a><i class="material-icons right">close</i></span>
+                        <p>A scraper designed to scrape class list data from Avenue.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col s12 m6">
+                  <div class="card medium">
+                     <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="projects/chapsule.png">
+                     </div>
+                     <div class="card-content">
+                        <span class="card-title grey-text text-darken-4"><a href="http://chapsule.com">Chapsule</a></span>
+                     </div>
+                     <div class="card-action">
+                        <span class="skills">HTML/CSS</span>
+                        <span class="skills">JS</span>
+                        <span class="skills">PHP</span>
+                     </div>
+                     <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4"><a href="http://github.com">Chapsule</a><i class="material-icons right">close</i></span>
+                        <p>Chapsule is an event file sharing platform that allows event hosts to easily connect with participants. Chapsule allows users to upload to a common cloud storage so they can find each other's media files (videos and pictures).</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col s12 m6">
+                  <div class="card medium">
+                     <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="projects/trolcc.png">
+                     </div>
+                     <div class="card-content">
+                        <span class="card-title grey-text text-darken-4"><a href="http://trolcc.ca">TROLCC</a></span>
+                     </div>
+                     <div class="card-action">
+                        <span class="skills">HTML/CSS</span>
+                        <span class="skills">JS</span>
+                     </div>
+                     <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4"><a href="http://github.com">TROLCC</a><i class="material-icons right">close</i></span>
+                        <p>Toronto River Of Life Christian Church Website</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="parallax-container valign-wrapper">
+         <div class="section no-pad-bot">
+            <div class="container">
+               <div class="row center">
+                  <h5 class="header col s12 light"></h5>
+               </div>
+            </div>
+         </div>
+         <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+      </div>
+
+      </div>
+      </div>
+      <footer class="page-footer white">
+         <div class="container">
+            <div class="row">
+               <div class="center">
+                  <h5 class="white-text">Contact</h5>
+                  <ul>
+                     <a href ="http://github.com/darrentu"><i class="fa fa-github-square fa-2x"></i> </a>
+                     &nbsp;   
+                     <a href ="http://linkedin.com/in/darrentu"><i class="fa fa-linkedin-square fa-2x"></i></a><br>
+                     <span><a href="mailto:tut@mcmaster.ca">tut@mcmaster.ca</a> | 647-886-8482</span>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <!--
+         <div class="footer-copyright">
+         </div>
+         -->
+      </footer>
+      <!--  Scripts-->
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="js/materialize.js"></script>
+      <script src="js/init.js"></script>
+   </body>
 </html>

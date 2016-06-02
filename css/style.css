@@ -1,0 +1,161 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+  text-align: center;
+  float: center;
+
+}
+
+nav ul li {
+  transition: background-color .3s;
+  float: center;
+  padding: 0;
+}
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+a {
+  color: black;
+}
+
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+  color: #ffffff;
+  margin-right: 20px;
+  transition: color .3s ease;
+  text-transform: uppercase;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):hover {
+  color: #ffd8a6;
+}
+
+.skills {
+  color: #ffab40;
+  margin-right: 20px;
+  transition: color .3s ease;
+  text-transform: uppercase;
+}
+
+.skills:hover{
+  color: #ffd8a6;
+}
+
+.title {
+  
+}
+
+@font-face { font-family: telegrafico; src: url('telegrafico.ttf'); } 
+
+
+/*
+.card a:not(.btn):not(.btn-large):not(.btn-floating) {
+  color: #ffffff;
+  margin-right: 20px;
+  transition: color .3s ease;
+  text-transform: uppercase;
+}
+
+.card a:not(.btn):not(.btn-large):not(.btn-floating):hover {
+  color: #ffd8a6;
+}
+
+
+.listTitle
+{
+  font-size:20px;
+  margin-top: 5px;
+  color: black;
+  text-align: center
+}
+
+.listText
+{
+  font-size: 14px;
+}
+.mspace {
+  margin-top: 10px;
+}
+.linkTitle:link {
+  color: black;
+}
+
+.linkTitle:hover {
+  color: yellow;
+}
+
+
+a.linkTitle:active {
+    color: black;
+}
+a.linkTitle:visited {
+  color: black;
+}
+
+*/
+
+
+/*
+.practice{ 
+  
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 50s;
+  
+  animation-iteration-count: infinite;
+}
+*/
+.anim {
+  animation-duration: 50s;
+
+  animation-iteration-count: infinite;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
