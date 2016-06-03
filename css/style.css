@@ -32,94 +32,9 @@ a {
 }
 
 
-.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
-  color: #ffffff;
-  margin-right: 20px;
-  transition: color .3s ease;
-  text-transform: uppercase;
-}
-
-.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):hover {
-  color: #ffd8a6;
-}
-
-.skills {
-  color: #ffab40;
-  margin-right: 20px;
-  transition: color .3s ease;
-  text-transform: uppercase;
-}
-
-.skills:hover{
-  color: #ffd8a6;
-}
-
-.title {
-  
-}
-
 @font-face { font-family: telegrafico; src: url('telegrafico.ttf'); } 
 
-
-/*
-.card a:not(.btn):not(.btn-large):not(.btn-floating) {
-  color: #ffffff;
-  margin-right: 20px;
-  transition: color .3s ease;
-  text-transform: uppercase;
-}
-
-.card a:not(.btn):not(.btn-large):not(.btn-floating):hover {
-  color: #ffd8a6;
-}
-
-
-.listTitle
-{
-  font-size:20px;
-  margin-top: 5px;
-  color: black;
-  text-align: center
-}
-
-.listText
-{
-  font-size: 14px;
-}
-.mspace {
-  margin-top: 10px;
-}
-.linkTitle:link {
-  color: black;
-}
-
-.linkTitle:hover {
-  color: yellow;
-}
-
-
-a.linkTitle:active {
-    color: black;
-}
-a.linkTitle:visited {
-  color: black;
-}
-
-*/
-
-
-/*
-.practice{ 
-  
-  -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 50s;
-  
-  animation-iteration-count: infinite;
-}
-*/
 .anim {
-  animation-duration: 50s;
-
   animation-iteration-count: infinite;
 }
 
